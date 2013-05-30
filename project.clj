@@ -1,4 +1,4 @@
-(defproject cljotp "0.1.0"
+(defproject cljotp "0.1.1"
   :description "Create HOTP and TOTP"
   :url "http://github.com/omarkj/cljotp"
   :licence "See the LICENCE file"
