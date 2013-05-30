@@ -1,7 +1,7 @@
-(ns cljotp.core
+(ns clj-otp.core
   (:import java.util.Date
            java.nio.ByteBuffer)
-  (:require [cljotp.crypto :as crypto]))
+  (:require [clj-otp.crypto :as crypto]))
 
 
 (declare time-steps)

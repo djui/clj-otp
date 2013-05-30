@@ -1,4 +1,4 @@
-(ns cljotp.qrcode
+(ns clj-otp.qrcode
   (:use [ring.util.codec :only [url-encode]]))
 
 (declare otp-url)

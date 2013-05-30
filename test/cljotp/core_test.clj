@@ -1,7 +1,7 @@
-(ns cljotp.core-test
+(ns clj-otp.core-test
   (:use clojure.test
-        cljotp.base32
-        cljotp.core))
+        clj-otp.base32
+        clj-otp.core))
 
 (deftest test-hotp
   (testing "HOTP code generation"

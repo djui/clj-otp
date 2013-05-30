@@ -1,6 +1,6 @@
-(ns cljotp.base32-test
+(ns clj-otp.base32-test
   (:use clojure.test
-        cljotp.base32))
+        clj-otp.base32))
 
 (deftest test-base32-conversion
   (testing "Base32 encoding->decoding"

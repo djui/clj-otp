@@ -1,4 +1,4 @@
-(ns cljotp.base32
+(ns clj-otp.base32
   (:import org.apache.commons.codec.binary.Base32))
 
 

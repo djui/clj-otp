@@ -1,7 +1,6 @@
-Cljotp
-======
+# clj-otp
 
-[![Build Status](https://secure.travis-ci.org/omarkj/cljotp.png)](https://travis-ci.org/omarkj/cljotp)
+[![Build Status](https://secure.travis-ci.org/djui/clj-otp.png)](https://travis-ci.org/djui/clj-otp)
 
 Generate one time passwords, [HOTP](http://en.wikipedia.org/wiki/HOTP)s and
 [TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)s for 
@@ -27,4 +26,4 @@ The secret needs to be a base32 encoded secret key!
 Licence
 -------
 
-Check the `LICENCE` file.
+Check the [LICENCE](https://github.com/djui/clj-otp/raw/master/LICENSE) file.

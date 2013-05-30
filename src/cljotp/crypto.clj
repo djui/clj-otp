@@ -1,4 +1,4 @@
-(ns cljotp.crypto
+(ns clj-otp.crypto
   (:import java.security.SecureRandom
            javax.crypto.spec.SecretKeySpec
            javax.crypto.Mac))

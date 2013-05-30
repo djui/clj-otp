@@ -1,7 +1,7 @@
-(ns cljotp.qrcode-test
+(ns clj-otp.qrcode-test
   (:use clojure.test
-        cljotp.base32
-        cljotp.qrcode))
+        clj-otp.base32
+        clj-otp.qrcode))
 
 (deftest test-otp-url
   (testing "QR Code image url generation"
