@@ -2,9 +2,11 @@
 
 [![Build Status](https://secure.travis-ci.org/djui/clj-otp.png)](https://travis-ci.org/djui/clj-otp)
 
-Generate one time passwords, [HOTP](http://en.wikipedia.org/wiki/HOTP)s and
-[TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)s for 
-your application. Should work with the Google Authenticator.
+Generate one time passwords, [HOTP](http://en.wikipedia.org/wiki/HOTP)s based
+on [RFC 4226](https://tools.ietf.org/html/rfc4226) and
+[TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)s
+based on [RFC 6238](http://tools.ietf.org/html/rfc6238) for your application.
+Should work with the Google Authenticator.
 
 ## Clojure API
 
