@@ -1,6 +1,5 @@
 (ns cljotp.crypto
-  (:import org.apache.commons.codec.binary.Base32
-           java.security.SecureRandom
+  (:import java.security.SecureRandom
            javax.crypto.spec.SecretKeySpec
            javax.crypto.Mac))
 
@@ -23,18 +22,3 @@
     ;; (.nextBytes (SecureRandom.) bytes) ; mutable op!
     (.nextBytes (SecureRandom/getInstance "SHA1PRNG") bytes) ; mutable op!
     bytes))
-
-(defn base32-encode-data
-  "Encode a binary to base32 string."
-  [data]
-  (.encodeToString (Base32.) data))
-
-(defn base32-encode
-  "Encode a string to base32 string."
-  [string]
-  (base32-encode-data (.getBytes string)))
-
-(defn base32-decode
-  "Decode a base32 string to binary."
-  [string]
-  (.decode (Base32.) string))
