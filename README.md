@@ -1,12 +1,16 @@
 # clj-otp
 
-[![Build Status](https://secure.travis-ci.org/djui/clj-otp.png)](https://travis-ci.org/djui/clj-otp)
+Generate one time passwords, [HOTP](http://en.wikipedia.org/wiki/HOTP)s based on [RFC 4226](https://tools.ietf.org/html/rfc4226) and
+[TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)s based on [RFC 6238](http://tools.ietf.org/html/rfc6238) for your application.
+Works with the Google Authenticator.
 
-Generate one time passwords, [HOTP](http://en.wikipedia.org/wiki/HOTP)s based
-on [RFC 4226](https://tools.ietf.org/html/rfc4226) and
-[TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)s
-based on [RFC 6238](http://tools.ietf.org/html/rfc6238) for your application.
-Should work with the Google Authenticator.
+Originally implemented by [omarkj](https://github.com/omarkj/cljotp) and forked from [djui](https://github.com/djui/clj-otp).
+
+## Installation
+
+Clojars package name:
+
+    [clj-otp "0.1.3"]
 
 ## Clojure API
 
@@ -34,6 +38,6 @@ Get a TOTP based QR code image url:
 (totp-url label secret)
 ```
 
-## Licence
+## License
 
-Check the [LICENCE](https://github.com/djui/clj-otp/raw/master/LICENSE) file.
+Check the [LICENSE](https://github.com/djui/clj-otp/raw/master/LICENSE) file.
