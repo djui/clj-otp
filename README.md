@@ -8,9 +8,11 @@ Originally implemented by [omarkj](https://github.com/omarkj/cljotp) and forked 
 
 ## Installation
 
-Clojars package name:
+Add
 
-    [clj-otp "0.1.3"]
+[![Current Version](https://clojars.org/clj-otp/latest-version.svg)](https://clojars.org/clj-otp)
+
+to your leiningen `:dependencies`.
 
 ## Clojure API
 
